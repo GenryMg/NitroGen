@@ -74,4 +74,4 @@ logger.info(`\n\n\n\nConnection with discordapp.com!\n\n\n\n\n\n\n`);
 checkCode(getGiftCode());
 setInterval(() => {
     checkCode(getGiftCode());
-    }, (5/triesPerSecond) * 50);
+    }, (500);
